@@ -15,6 +15,6 @@ const subTodo = new mongoose.Schema({
   },
 
 },{timestamps: true}
-),
+)
 
 export const subTodos = mongoose.model('subTodo', subTodo);
